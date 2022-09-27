@@ -7,8 +7,9 @@
     --dark-grey: rgba(44,62,80,1);
 }
 
-.debug {
-    height: 100px;
+a {
+    color: var(--green);
+    text-decoration: none;
 }
 
 body {
@@ -26,6 +27,10 @@ header {
     top: 0;
     width: 100%;
     background-color: var(--black);
+}
+
+.navbar-nav li a {
+    color: var(--white);
 }
 
 #hero img {
@@ -52,4 +57,32 @@ header {
 
 header .nav-link:hover {
     color: var(--green);
+}
+
+.social {
+    width: 2rem;
+    height: 2rem;
+    line-height: 2rem;
+    align-content: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.social:hover.border-white {
+    border-color: var(--black) !important;
+}
+
+.social:hover {
+    background-color: var(--green);
+    color: var(--black);
+    border: 1px solid var(--black);
+}
+
+footer a:hover {
+    color: var(--green);
+    text-decoration: underline;
+}
+
+.copy {
+    font-size: .8rem;
 }
