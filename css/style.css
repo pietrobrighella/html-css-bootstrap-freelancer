@@ -31,6 +31,10 @@ header {
     z-index: 9999;
 }
 
+nav {
+    padding-top: 25px;
+}
+
 .navbar-nav li a {
     color: var(--white);
 }
