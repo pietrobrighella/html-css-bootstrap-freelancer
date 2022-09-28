@@ -14,11 +14,10 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark h-100">
+        <nav class="navbar navbar-expand-md navbar-dark">
             <div class="container-md">
               <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse align-content-end" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
@@ -34,7 +33,7 @@
                 </ul>
               </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <main>
         <section id="hero" class="bg-green py-5">
@@ -63,22 +62,34 @@
                 </div>
                 <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 gy-4 justify-content-center pt-2">
                     <div class="col">
-                        <img src="./img/cabin.png" class="img-fluid rounded-3" alt="Cabin">
+                        <div class="position-relative pb-img-hover rounded-3 overflow-hidden">
+                            <img src="./img/cabin.png" class="img-fluid" alt="Cabin">
+                        </div>
                     </div>
                     <div class="col">
-                        <img src="./img/cake.png" class="img-fluid rounded-3" alt="Cabin">
+                        <div class="position-relative pb-img-hover rounded-3 overflow-hidden">
+                            <img src="./img/cake.png" class="img-fluid" alt="Cabin">
+                        </div>
                     </div>
                     <div class="col">
-                        <img src="./img/circus.png" class="img-fluid rounded-3" alt="Cabin">
+                        <div class="position-relative pb-img-hover rounded-3 overflow-hidden">
+                            <img src="./img/circus.png" class="img-fluid" alt="Cabin">
+                        </div>
                     </div>
                     <div class="col">
-                        <img src="./img/game.png" class="img-fluid rounded-3" alt="Cabin">
+                        <div class="position-relative pb-img-hover rounded-3 overflow-hidden">
+                            <img src="./img/game.png" class="img-fluid" alt="Cabin">
+                        </div>
                     </div>
                     <div class="col">
-                        <img src="./img/safe.png" class="img-fluid rounded-3" alt="Cabin">
+                        <div class="position-relative pb-img-hover rounded-3 overflow-hidden">
+                            <img src="./img/safe.png" class="img-fluid" alt="Cabin">
+                        </div>
                     </div>
                     <div class="col">
-                        <img src="./img/submarine.png" class="img-fluid rounded-3" alt="Cabin">
+                        <div class="position-relative pb-img-hover rounded-3 overflow-hidden">
+                            <img src="./img/submarine.png" class="img-fluid" alt="Cabin">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -116,6 +127,25 @@
                         </div>
                     </div>
                 </div>
+                <form class="w-75 m-auto">
+                    <div class="form-floating mb-4">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="nome">
+                        <label for="floatingInput">Nome</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <input type="number" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Phone Number</label>
+                    </div>
+                    <div class="form-floating mb-4">
+                        <textarea class="form-control" placeholder="Message" id="floatingInput" style="height: 200px"></textarea>
+                        <label for="floatingInput">Message</label>
+                    </div>
+                    <button type="button" class="btn btn-primary">Send</button>
+                </form>
             </div>
         </section>
     </main>
